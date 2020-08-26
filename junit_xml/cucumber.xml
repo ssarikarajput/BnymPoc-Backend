@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+    <testcase classname="Bnym create new" name="Bnym create test Scenario" time="0">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given user opened crbInventory page.........................................undefined
+When title of the page is BNYMPOCFrontend...................................undefined
+Then user clicks on create button...........................................undefined
+Then user enters "Stock" and "12/31/2019" and "is12877867" and "cus95367678" and "sed0912345678" and "Tesla" and "12/30/2022".undefined
+And user clicks on submit button............................................undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>

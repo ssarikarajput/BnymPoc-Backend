@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Bnym create test Scenario",
+        "description": "",
+        "id": "bnym-create-new;bnym-create-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "user opened crbInventory page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "title of the page is BNYMPOCFrontend",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user clicks on create button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters \"Stock\" and \"12/31/2019\" and \"is12877867\" and \"cus95367678\" and \"sed0912345678\" and \"Tesla\" and \"12/30/2022\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user clicks on submit button",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Bnym create new",
+    "description": "",
+    "id": "bnym-create-new",
+    "keyword": "Feature",
+    "uri": "/workspace/CRB-Inventory/BNYM-POC-backend-master/src/test/java/com/bnym/poc/cucumber/Features/create.feature"
+  }
+]
